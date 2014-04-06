@@ -5,3 +5,9 @@
 -Si c'est la 1er fois creation d'un fichier de config contenant : DB_HOST,DB_USER,DB_PASS editable depuis le logiciel
 -Detection de si il y a ( ou non ) un serveur mysql ON , si non on affiche une alert
 -Debut de l'application & du SQLManager
+
+[06/04/2014]
+
+-Refonte du code
+-Debut de l'application
+-Creation des icones ( Thanks NexT ) 
