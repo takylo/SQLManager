@@ -1,14 +1,16 @@
 package main;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
+import instal.Instal;
 
 public class main {
 
 	public static void main(String[] args) {
 		LoadingPage loadingPage = new LoadingPage(true);
-		if(Tool.CHECK_IS_FIRT_UTILISATION() == false){
+		if(Instal.CHECK_IS_FIRT_UTILISATION() == false){
 			Tool.Alert("Welcome",Label.WELCOME_FIRST_MSG,1);
+			Instal.CONFIG_APP_INSTAL();
+
 		}else{
 			if(Config.LOAD_CONFIG() == false){
 				Tool.Alert("Erreur",Label.FAILED_TO_LOAD_APP,2);
