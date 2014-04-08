@@ -1,9 +1,11 @@
 package instal;
 
 import java.io.File;
-import main.Tool;
-import main.Label;
+
 import javax.swing.JOptionPane;
+
+import main.Label;
+import main.Tool;
 
 public class Instal {
 	public static boolean CHECK_IS_FIRT_UTILISATION(){

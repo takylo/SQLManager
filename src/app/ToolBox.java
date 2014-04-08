@@ -5,7 +5,7 @@ import main.Load;
 import javax.swing.JPanel;
 
 public class ToolBox {
-  
+	
 	public static Component ToolBox() {
 		
 		JPanel _Box = new JPanel();
@@ -13,6 +13,6 @@ public class ToolBox {
 		_Box.add(Load.CREATE_TABLE);
 		_Box.add(Load.DELETE_TABLE);
 		return _Box;
-        
+		
 	}
 }

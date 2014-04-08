@@ -1,5 +1,6 @@
 package main;
 import java.awt.Font;
+
 import javax.swing.JLabel;
 
 public class Label {
@@ -14,16 +15,16 @@ public class Label {
 	static JLabel FAILED_TO_LOAD_FILE_CONFIG = new JLabel("Impossible de charger le fichier de configuration !");
 	static JLabel FAILED_TO_LOAD_GRAPHIC_INTERFACE = new JLabel("Probleme d'interface graphique");
 	static JLabel DEBUG_LABEL_TEST = new JLabel("Tout est ok !");
-	static JLabel FAILED_QUERY = new JLabel("La requete SQL a echoue :(");
+	public static JLabel FAILED_QUERY = new JLabel("La requete SQL a echoue :(");
 
 	// INSTALATION
-	public static JLabel SUCCESS_FINISH_CONFIG_INSTAL = new JLabel("Configuration fini avec succes ! Veuillez relancer le logiciel");
-    public static JLabel CONFIG_APP_MSG = new JLabel("Veuillez configurer Manage SQL");
-    public static String HOST_INSTAL_MSG =  "Hote de la base de donnee";
-    public static String HOST_INSTAL_MSG_TITLE = "Hote : ( localhost )";
-    public static String USER_INSTAL_MSG = "Utilisateur de la base de donnee";
-    public static String USER_INSTAL_MSG_TITLE = "Utilisateur : ( root ) ";
-    public static String PASS_INSTAL_MSG = "Mot de passe de la base de donnee";
-    public static String PASS_INSTAL_MSG_TITLE = "Mot de passe ( ) :";
-    public static JLabel ERROR_INPUT_EMPTY = new JLabel("Veuillez relancer l'instalation et remplir les champs correctement ! ");
-}
+		public static JLabel SUCCESS_FINISH_CONFIG_INSTAL = new JLabel("Configuration fini avec succes ! Veuillez relancer le logiciel");
+		public static JLabel CONFIG_APP_MSG = new JLabel("Veuillez configurer Manage SQL");
+		public static String HOST_INSTAL_MSG =  "Hote de la base de donnee";
+		public static String HOST_INSTAL_MSG_TITLE = "Hote : ( localhost )";
+		public static String USER_INSTAL_MSG = "Utilisateur de la base de donnee";
+		public static String USER_INSTAL_MSG_TITLE = "Utilisateur : ( root ) ";
+		public static String PASS_INSTAL_MSG = "Mot de passe de la base de donnee";
+		public static String PASS_INSTAL_MSG_TITLE = "Mot de passe ( ) :";
+		public static JLabel ERROR_INPUT_EMPTY = new JLabel("Veuillez relancer l'instalation et remplir les champs correctement ! ");
+	}

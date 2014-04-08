@@ -10,7 +10,7 @@ public class SQLManager {
 
 	private static Connection Connection;
 
-	public static final boolean setUpConnexion() {
+	public static final boolean setUpConnexion(String dbname) {
 		try {
 
 			String url = "jdbc:mysql://"+Config.getDB_HOST()+":3306/";
